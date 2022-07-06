@@ -11,10 +11,11 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     rel="stylesheet" />
         <link rel="stylesheet" href="css/base_style.css">
+        <link rel="stylesheet" href="css/login_style.css">
         <script src="js/script.js"></script>
-
 </head>
 <body>
+
 <header>
     <div class="logo">
         <img src="/images/logo-mercado-liebre.svg" alt="Logo mercado liebre" >
@@ -22,7 +23,7 @@
     <div class="barra_de_busqueda">
         <div class="form-group">
           <label for=""></label>
-          <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Busca Producto o marcar">
+          <input type="search" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Busca Producto o marcar">
         </div>
         <i class="fas fa-search" id="search-btn"></i>
     </div>
@@ -35,7 +36,7 @@
             <li><a href="">Ayuda</a></li>
         </ul>
         <ul>
-            <li><a href="/">Inicio </a></li>    
+            <li><a href="/">Inicio </a></li>
             <li><a href="/registro">Crea tu cuenta <i class="fas fa-id-card"></i></a></li>
             <li><a href="/login">Ingresa <i class="fa fa-arrow-right"></i></a></li>
             <li><a href="">Mis compras  <i class="fas fa-shopping-cart"></i></a></li>
@@ -45,96 +46,22 @@
         <div class="burger-menu">
             <i class="fas fa-bars"></i>
             </div>
-        </div>
+    </div>
 </header>
-<section class="ultima_visita">
-    <article>
-        <div class="image_article">
-            <img src="/images/img-cafetera-moulinex.jpg" alt="Imagen de la cafeteria">
-        </div>
-        <div class="text_article">
-            <p>imagen de la cafetera<br>
-                $6.770<br>
-                40% OFF<br>
-                Cafetera Moulinex</p>
-        </div> 
-    </article>
-    <article>
-        <div class="image_article">
-            <img src="/images/img-macbook-pro-2019.jpg" alt="macbook pro">
-        </div>
-        <div class="text_article">
-            <p>$230.000<br>
-                20% off<br>
-                MacBook Pro 2019</p>
-        </div> 
-    </article>  
-    <article>
-        <div class="image_article">
-            <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung">
-        </div>
-        <div class="text_article">
-            <p>$70.500<br>
-                10% off<br>
-                Samsung Galaxy S10</p>
-        </div> 
-    </article>  
-    <article>
-        <div class="image_article">
-            <img src="  /images/img-tv-samsung-smart.jpg" alt="Samsung">
-        </div>
-        <div class="text_article">
-            <p>$23.200<br>
-                5% off<br>
-                SmartTv Samsung 43"</p>
-        </div> 
-    </article>  
-</section>
+    <!-- Sección Login -->
+    <section class="contenedor-login">
+        <div class="contenedor-formulario">
+            <br><br><h1>Formulario de Ingreso</h1><br><br>
+        <form action="" method="get">
+            <br> <input type="text" id="username" class="form_registro"  placeholder="Nombre de Usuario"><br><br><br>
+            <input class="form_registro"  type="password" id="password" placeholder="Contraseña"><br><br><br>
+            <button class="btn_enviar" type="submit">Enviar</button>
+        </form>
+    </div>
+    </section>
 
-<section class="ofertas">
-    <article>
-        <div class="image_article">
-            <img src="/images/img-cafetera-moulinex.jpg" alt="Imagen de la cafeteria">
-        </div>
-        <div class="text_article">
-            <p>imagen de la cafetera<br>
-                $6.770<br>
-                40% OFF<br>
-                Cafetera Moulinex</p>
-        </div> 
-    </article>
-    <article>
-        <div class="image_article">
-            <img src="/images/img-macbook-pro-2019.jpg" alt="macbook pro">
-        </div>
-        <div class="text_article">
-            <p>$230.000<br>
-                20% off<br>
-                MacBook Pro 2019</p>
-        </div> 
-    </article>  
-    <article>
-        <div class="image_article">
-            <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung">
-        </div>
-        <div class="text_article">
-            <p>$70.500<br>
-                10% off<br>
-                Samsung Galaxy S10</p>
-        </div> 
-    </article>  
-    <article>
-        <div class="image_article">
-            <img src="  /images/img-tv-samsung-smart.jpg" alt="Samsung">
-        </div>
-        <div class="text_article">
-            <p>$23.200<br>
-                5% off<br>
-                SmartTv Samsung 43"</p>
-        </div> 
-    </article>  
-</section>
-</div>
+
+
 <footer>
     <div class="footer">
     <section class="footer-seccion">

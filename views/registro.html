@@ -11,8 +11,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     rel="stylesheet" />
         <link rel="stylesheet" href="css/base_style.css">
+        <link rel="stylesheet" href="css/registro_style.css">
         <script src="js/script.js"></script>
-
 </head>
 <body>
 <header>
@@ -22,7 +22,7 @@
     <div class="barra_de_busqueda">
         <div class="form-group">
           <label for=""></label>
-          <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Busca Producto o marcar">
+          <input type="search" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Busca Producto o marcar">
         </div>
         <i class="fas fa-search" id="search-btn"></i>
     </div>
@@ -35,7 +35,7 @@
             <li><a href="">Ayuda</a></li>
         </ul>
         <ul>
-            <li><a href="/">Inicio </a></li>    
+            <li><a href="/">Inicio </a></li>
             <li><a href="/registro">Crea tu cuenta <i class="fas fa-id-card"></i></a></li>
             <li><a href="/login">Ingresa <i class="fa fa-arrow-right"></i></a></li>
             <li><a href="">Mis compras  <i class="fas fa-shopping-cart"></i></a></li>
@@ -45,96 +45,48 @@
         <div class="burger-menu">
             <i class="fas fa-bars"></i>
             </div>
-        </div>
+    </div>
 </header>
-<section class="ultima_visita">
-    <article>
-        <div class="image_article">
-            <img src="/images/img-cafetera-moulinex.jpg" alt="Imagen de la cafeteria">
-        </div>
-        <div class="text_article">
-            <p>imagen de la cafetera<br>
-                $6.770<br>
-                40% OFF<br>
-                Cafetera Moulinex</p>
-        </div> 
-    </article>
-    <article>
-        <div class="image_article">
-            <img src="/images/img-macbook-pro-2019.jpg" alt="macbook pro">
-        </div>
-        <div class="text_article">
-            <p>$230.000<br>
-                20% off<br>
-                MacBook Pro 2019</p>
-        </div> 
-    </article>  
-    <article>
-        <div class="image_article">
-            <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung">
-        </div>
-        <div class="text_article">
-            <p>$70.500<br>
-                10% off<br>
-                Samsung Galaxy S10</p>
-        </div> 
-    </article>  
-    <article>
-        <div class="image_article">
-            <img src="  /images/img-tv-samsung-smart.jpg" alt="Samsung">
-        </div>
-        <div class="text_article">
-            <p>$23.200<br>
-                5% off<br>
-                SmartTv Samsung 43"</p>
-        </div> 
-    </article>  
+    <!-- Sección Formulario -->
+    <section class="contenedor-registro">
+        <div class="contenedor-formulario-registro">
+        <br><br><h1>Formulario de Registro</h1><br><br>
+<form action="/" method="get">
+    <input class="form_registro" type="text" name="fullname" id="fullname" placeholder="Nombre y Apellidos" required><br><br>
+    <input class="form_registro" type="text" name="username" id="username"  placeholder="Nombre de usuario"><br><br>
+    <label for="birthday"><h2>Fecha de Nacimiento</h2></label><br>
+    <input class="form_registro" type="date" name="birthday" id="birthday"><br><br>
+        <input class="form_registro" type="text" name="address" id="address" placeholder="Domicilio"><br><br>
+    <label for="profile"><h2>Perfil del usuario</h2></label><br>
+    <select name="perfilUsuario" id="perfilUsuario">
+        <option value="" selected>Selecciona una opción</option>
+        <option value="comprador" >Comprador</option>
+        <option value="vendedor">Vendedor</option>
+    </select><br><br>
+    <label for="profile"><h2>Intereses:</h2></label><br>
+    <input type="checkbox" name="categoriaInteres" value="electro">
+    <label class="label_intereses" for="electro">Electro</label><br>
+    <input type="checkbox" name="categoriaInteres" value="moda">
+    <label class="label_intereses" for="moda">Moda</label> <br>
+    <input type="checkbox" name="categoriaInteres" value="hogar">
+    <label class="label_intereses" for="hogar">Hogar</label><br>
+    <input type="checkbox" name="categoriaInteres" value="jugueteria">
+    <label class="label_intereses" for="jugueteria">Jugueteria</label><br>  
+    <input type="checkbox" name="categoriaInteres" value="vidasana">
+    <label class="label_intereses" for="vidasana">Vida sana</label><br>
+    <br>
+   <input type="file" name="fotoperfil" id="fotoperfil"><br><br>
+   <label for="fullname"><h2>Contraseña</h2></label>
+   <input class="form_registro" type="password" name="contrasena" id="contrasena"><br><br>
+   <div style="display: inline-flex;">
+   <button class="btn_enviar" type="submit">Enviar</button>
+   <input class="btn_reset" type="reset" value="Limpiar">
+   </div>
+</form>
+</div>
 </section>
 
-<section class="ofertas">
-    <article>
-        <div class="image_article">
-            <img src="/images/img-cafetera-moulinex.jpg" alt="Imagen de la cafeteria">
-        </div>
-        <div class="text_article">
-            <p>imagen de la cafetera<br>
-                $6.770<br>
-                40% OFF<br>
-                Cafetera Moulinex</p>
-        </div> 
-    </article>
-    <article>
-        <div class="image_article">
-            <img src="/images/img-macbook-pro-2019.jpg" alt="macbook pro">
-        </div>
-        <div class="text_article">
-            <p>$230.000<br>
-                20% off<br>
-                MacBook Pro 2019</p>
-        </div> 
-    </article>  
-    <article>
-        <div class="image_article">
-            <img src="/images/img-samsung-galaxy-s10.jpg" alt="Samsung">
-        </div>
-        <div class="text_article">
-            <p>$70.500<br>
-                10% off<br>
-                Samsung Galaxy S10</p>
-        </div> 
-    </article>  
-    <article>
-        <div class="image_article">
-            <img src="  /images/img-tv-samsung-smart.jpg" alt="Samsung">
-        </div>
-        <div class="text_article">
-            <p>$23.200<br>
-                5% off<br>
-                SmartTv Samsung 43"</p>
-        </div> 
-    </article>  
-</section>
-</div>
+
 <footer>
     <div class="footer">
     <section class="footer-seccion">

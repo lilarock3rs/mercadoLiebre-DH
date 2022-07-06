@@ -1,0 +1,62 @@
+section.contenedor-formulario {
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
+body{
+    background-color: #EBEBEB;
+}
+
+input.form_registro {
+    width: 50%;
+    height: 27px;
+    border: transparent;
+    border-radius: 2px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+select#perfilUsuario {
+    height: 30px;
+    width: 51%;
+    padding: 5px;
+    border: transparent;
+    font-size: 16px;
+
+
+}
+.label_intereses{
+    font-size: 16px;
+
+}
+input#fotoperfil {
+    font-size: 16px;
+}
+button.btn_enviar {
+    background-color: #1B4BC6;
+    color: white;
+    border: transparent;
+    padding: 11px 30px 11px 30px;
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+    width: 32%;
+
+}
+input.btn_reset {
+    background-color: white;
+    color: #1B4BC6;
+    border: transparent;
+    padding: 11px 30px 11px 30px;
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+}
+.contenedor-login{
+    width:100%;
+    display:flex;
+    justify-content:center;
+  }
+  .contenedor-formulario{
+    width:80%;
+    padding:2rem;
+    text-align: center;
+  }

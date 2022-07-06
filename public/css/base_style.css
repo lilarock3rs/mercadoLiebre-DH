@@ -1,6 +1,21 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+.main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 
 /*Header */
@@ -10,8 +25,11 @@ header{
     font-family: 'Roboto', sans-serif;
 }
 
-p,h1,h2,h3,h4{
+p,h1,h2,h3,h4,label{
     font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 20px;
 }
 
 h3{
@@ -77,7 +95,6 @@ section.footer-seccion {
     color: #575757;
 }
 
-/*footer
 
 .sub-footer {
     text-align: center;
@@ -86,4 +103,4 @@ section.footer-seccion {
 section.footer-seccion {
     width: 33.3%;
     float: left;
-} */
+}
