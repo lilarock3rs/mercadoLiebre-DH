@@ -1,9 +1,18 @@
+:root {
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste:#1259C3;
+    --grisoscuro:#666;
+    --grisclaro:#ebebeb;
+    --verde:#39b54a;
+  }
+
 section.contenedor-formulario {
     padding: 2rem;
     padding-bottom: 3rem;
 }
 body{
-    background-color: #EBEBEB;
+    background-color: var(--grisclaro);
 }
 
 input.form_registro {
@@ -33,7 +42,7 @@ input#fotoperfil {
     font-size: 16px;
 }
 button.btn_enviar {
-    background-color: #1B4BC6;
+    background-color: var(--azul);
     color: white;
     border: transparent;
     padding: 11px 30px 11px 30px;
@@ -42,7 +51,7 @@ button.btn_enviar {
 }
 input.btn_reset {
     background-color: white;
-    color: #1B4BC6;
+    color: var(--celeste);
     border: transparent;
     padding: 11px 30px 11px 30px;
     margin: 0px 20px 0px 0px;
