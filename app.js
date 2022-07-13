@@ -5,9 +5,10 @@ const publicPath=path.resolve(__dirname,"./public");
 app.use(express.static(publicPath));
 /* deja público solo esto */
 
+const port = process.env.PORT || 3000;
 
-app.listen(3000,()=>{console.log("Servidor corriendo")});
-
+app.listen(port,()=>{console.log("Servidor corriendo")});
+// Si quiero probar la variable de entorno. PORT 400 npm run dev
 
 app.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname,"./views/home.html"));

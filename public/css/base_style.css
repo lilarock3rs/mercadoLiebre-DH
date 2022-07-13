@@ -194,8 +194,7 @@ article {
     margin-bottom: 15px;
 
 }
-.text_article p { visibility:hidden;}
-.text_article p:hover { visibility: visible;}
+
 .text_title {
     padding: 40px 0px 20px 24px;
     color:var(--grisoscuro);
@@ -213,6 +212,7 @@ i.fa.fa-truck {
     position: absolute;
     top: -33px;
     right: 29px;
+    background-color: white;
 }
 section.ofertas {
     margin-bottom: 8%;
